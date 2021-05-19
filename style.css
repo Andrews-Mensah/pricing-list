@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color:gray;
+    color: black;
+}
+
+.main-heading {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.our-plans {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan {
+    background-color: aliceblue;
+    border: 3px solid black;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    width:20%;
+}
+
+.basic-plan {
+    font-size: 2rem;
+    height: 50px;
+    margin-top: 0px;
+    background-color:cadetblue
+    
+
+}
+
+.standard-plan {
+    font-size: 2rem;
+    height: 50px;
+    margin-top: 0px;
+    background-color:coral;
+}
+
+.advanced-plan {
+    font-size: 2rem;
+    height: 50px;
+    margin-top: 0px;
+    background-color:darkcyan
+}
+
+.price-heading {
+    font-size: 4rem;
+    vertical-align: middle;
+}
+
+.plan-item {
+    padding: 20px 0;
+    
+}
+
+.btn-order-now {
+    background-color:rgb(19, 31, 53);
+    padding: 10px;
+    margin-top: 20px;
+    display:block;
+    color:white;
+    border-radius: 5px ;    
+}
+
+.btn-order-now:hover{
+    background-color:turquoise;
+}
