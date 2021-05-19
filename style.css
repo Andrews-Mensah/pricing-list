@@ -75,3 +75,8 @@ body {
 .btn-order-now:hover{
     background-color:turquoise;
 }
+
+.plan:hover {
+    background-color:chocolate;
+    
+}
